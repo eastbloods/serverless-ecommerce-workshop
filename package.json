@@ -1,0 +1,35 @@
+{
+  "name": "serverless-ecommerce-workshop",
+  "version": "1.0.0",
+  "description": "A workshop to learn how to create a simple serverless e-commerce and deploying it on AWS",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourTheorem/serverless-ecommerce-workshop.git"
+  },
+  "keywords": [],
+  "author": "fourTheorem.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourTheorem/serverless-ecommerce-workshop/issues"
+  },
+  "homepage": "https://github.com/fourTheorem/serverless-ecommerce-workshop#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0"
+  }
+}
